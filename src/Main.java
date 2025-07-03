@@ -64,8 +64,8 @@ public class Main {
 
 
 
-        //5. Write a Java program to find a shortest word of a given array:
-        // [“Tuwaiq”, “Bootcamp” , “Student”,”JAVA”]
+        //5. Write a Java program to find the shortest word of a given array:
+        // ["Tuwaiq", "Bootcamp" , "Student", "JAVA"]
         //    - Expected Output:
         //     JAVA
         System.out.println("5. Write a Java program to find a shortest word of a given array:");
