@@ -5,7 +5,6 @@ public class Main {
         Scanner scn = new Scanner(System.in);
 
         //1. Write a Java program that accept three numbers from the user and print the largest number .
-        System.out.println("1. Write a Java program that accept three numbers from the user and print the largest number .");
         System.out.print("Enter first number: ");
         int first_number = scn.nextInt();
         System.out.print("Enter second number: ");
@@ -18,7 +17,6 @@ public class Main {
 
 
         //2. Write a Java program that accept a String and a number from the user,then print the character in the given index .
-        System.out.println("2. Write a Java program that accept a String and a number from the user,then print the character in the given index .");
         System.out.print("Enter string: ");
         scn.nextLine(); // to fix bug of line scanner
         String string_number = scn.nextLine();
@@ -29,7 +27,6 @@ public class Main {
 
 
         //3. Write a program to enter the numbers till the user wants and at the end it should display the sum entered .
-        System.out.println("3. Write a program to enter the numbers till the user wants and at the end it should display the sum entered .");
         boolean is_run = true;
         int total = 0;
         while (is_run){
@@ -56,7 +53,6 @@ public class Main {
         //      30 is a positive number
         //      31 is a positive number
         //     -25 is a negative number
-        System.out.println("4. Write a Java program to find positive and negative numbers of a given array:");
         int[] ints_array = {10, -21 , 30, 31, -25};
         findPositiveNegative(ints_array);
 
@@ -68,7 +64,6 @@ public class Main {
         // ["Tuwaiq", "Bootcamp" , "Student", "JAVA"]
         //    - Expected Output:
         //     JAVA
-        System.out.println("5. Write a Java program to find a shortest word of a given array:");
         String[] strings_array = {"Tuwaiq", "Bootcamp", "Student", "JAVA"};
         int shortest_length = findShortestWord(strings_array);
         printShortest(strings_array, shortest_length);
