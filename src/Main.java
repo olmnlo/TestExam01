@@ -73,7 +73,7 @@ public class Main {
         int shortest_length = findShortestWord(strings_array);
         printShortest(strings_array, shortest_length);
 
-
+        scn.close();
 
 
 
